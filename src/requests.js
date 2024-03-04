@@ -1,5 +1,6 @@
-// const API_KEY = 'Your TMDB Api_Key';
-const API_KEY = 'https://api.themoviedb.org/3/movie/550?api_key=19f84e11932abbc79e6d83f82d6d1045'
+const API_KEY = 'Api_Key';
+// const API_KEY = 'https://api.themoviedb.org/3/movie/550?api_key=19f84e11932abbc79e6d83f82d6d1045'
+
 
 const requests = {
 	fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
